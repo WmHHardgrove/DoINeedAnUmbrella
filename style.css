@@ -17,7 +17,19 @@ body {
     width: 100%;
     max-width: 475px;
     margin: 1em;
-    background-image: url(./img/raindrops.jpg);
+    background-color: darkslategrey;
+    opacity: 0.5;
+}
+
+.result-card {
+    color: beige;
+    padding: 3em;
+    background: #000000d0;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 475px;
+    margin: 1em;
+    background-color: darkslategrey;
     opacity: 0.5;
 }
 
