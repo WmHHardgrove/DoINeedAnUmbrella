@@ -60,3 +60,27 @@ body {
     outline: none;
     margin: 1rem;
 }
+
+.five-day {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.day1, .day2, .day3, .day4, .day5 {
+    color: beige;
+    padding: 3em;
+    background: #000000d0;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 475px;
+    margin: 1em;
+    background-color: darkslategrey;
+    opacity: 0.5;
+}
