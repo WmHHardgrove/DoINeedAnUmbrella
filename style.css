@@ -5,13 +5,46 @@ body {
     justify-content: center;
     height: 50rem;
     margin: 0;
+    background-image: url(./img/sunnybeach.jpg);
+   
 }
 
 .search-card {
+    color: beige;
     padding: 3em;
-    background: grey;
+    background: #000000d0;
     border-radius: 50px;
     width: 100%;
     max-width: 475px;
     margin: 1em;
+    background-image: url(./img/raindrops.jpg);
+    opacity: 0.5;
+}
+
+.search-card:hover {
+    opacity: 0.9;
+}
+
+.city-input {
+    border-radius: 10px;
+}
+
+.search-button {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 1rem;
+}
+
+.city-input {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 1rem;
 }
